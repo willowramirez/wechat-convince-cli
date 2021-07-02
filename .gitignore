@@ -1,0 +1,6 @@
+.DS_Store
+.editorconfig
+.idea
+.bat
+.scannerwork
+node_modules/
