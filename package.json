@@ -1,6 +1,6 @@
 {
   "name": "wechat-convince-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "微信开发者工具 CLI 便捷使用工具",
   "main": "index.js",
   "bin": {
