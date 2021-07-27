@@ -4,7 +4,8 @@
   "description": "微信开发者工具 CLI 便捷使用工具",
   "main": "index.js",
   "bin": {
-    "wcc": "bin/index.js"
+    "wcc": "bin/index.js",
+    "wechat-convince-cli": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

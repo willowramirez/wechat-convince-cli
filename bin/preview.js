@@ -97,8 +97,9 @@ try {
           return;
         };
         console.log(chalk.yellow('命令已执行'));
-        console.log(stdout.slice(0, 7) === '[error]' ? chalk.red('请扫码\n', stdout) : chalk.yellow('请扫码\n', stdout));
+        console.log(stdout.slice(0, 7) === '[error]' ? chalk.red('执行错误\n', stdout) : chalk.yellow('请扫码\n', stdout));
         console.log(stderr);
+
         console.log(chalk.bold.underline.yellow('Tips：'));
         console.log(chalk.yellow('1. 如若出现二维码不完整，请重新执行一次命令。'));
         console.log(chalk.yellow('2. 如弱出现非常规问题，请执行原始命令：', commandStr));
